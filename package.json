@@ -1,0 +1,31 @@
+{
+  "name": "2.-api",
+  "version": "1.0.0",
+  "description": "Api Rest en Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "start-dev": "set DEBUG=sena:* & nodemon server.js",
+    "start": "NODE-ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NestorRodriguez/NodeApiRest.git"
+  },
+  "author": "Néstor Andres Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NestorRodriguez/NodeApiRest/issues"
+  },
+  "homepage": "https://github.com/NestorRodriguez/NodeApiRest#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "pip": "0.0.1"
+  }
+}
